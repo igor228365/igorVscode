@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div</title>
+    <link rel="stylesheet" type="text/css" href="div.css">
+    <style type="text/css">
+    #p1{
+        background-color: red;
+        font-size: 50px;
+        font-weight: 900;
+        border: dotted 10px red #000;
+        text-align: center;
+    }
+    #first, #second{
+        width: 300px;
+        height: 300px;
+        border: dotted 10px red;
+        margin: 20px;
+    }
+    #third,#fourth{
+        width: 500px;
+        height: 100px;
+        border: dashed 10px orange;
+        margin: 20px;
+        background-color: pink;
+    }
+    #fourth{
+        background-color: lime;
+    }
+    #p2{
+        margin-top: 125px;
+        font-size: 50px;
+        font-family: fantasy;
+        text-align: center;
+    }
+    #first{
+        color: lightskyblue;
+    }
+    p.blocktext {
+       border: dotted 10px red;
+    }
+    </style>
+</head>
+<body>
+    <p id="p1">Ми 
+        вивчяємо 
+        блоки</p>
+    <div id="first"><p id="p2">first</p></div>
+    <div class="exemple">
+        <p class="blocktext">Мене звати Ігор
+        </div><div id="first"><p id="p2">first</p></div>
+        <div id="second">
+            <div id="third"><pre>Я
+                 щирий
+                 Українець</pre></div>
+                 <div id="fourth">Я люблю Україну</div>
+            </div>
+</body>
+</html>
